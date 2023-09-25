@@ -109,5 +109,29 @@ public class Main {
  A
  */
 
+Other Types
+A demonstration of how to declare variables of other types:
+import java.io.*;
+public class Main{
+public static void main(String[] args){
+int num = 5;
+float fnum = 2.2f;
+char letter = 'A';
+String str = "Hello";
+boolean bool = true;
+System.out.println(num);
+System.out.println(fnum);
+System.out.println(letter);
+System.out.println(str);
+System.out.println(bool);
+}
+}
+/*
+5
+2.2
+A
+Hello
+true
+*/
                       
                           
