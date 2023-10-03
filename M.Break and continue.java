@@ -47,3 +47,50 @@ System.out.println(i);
     8
     9
 */
+Break and Continue in While Loop
+You can also use break and continue in while loops:
+
+Break Example
+import java.io.*;
+public class Main{
+public static void main(String[] args){
+int i = 0;
+while(i<10){
+System.out.println(i);
+i++;
+if(i==5){
+break;
+}}}}
+/*
+        0
+        1
+        2
+        3
+        4
+*/
+
+Continue Example
+import java.io.*;
+public class Main{
+public static void main(String[] args){
+int i = 0;
+while(i<10){
+if(i==5){
+i++;
+continue;
+}
+System.out.println(i);
+i++;
+}}}
+/*
+        0
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+*/
